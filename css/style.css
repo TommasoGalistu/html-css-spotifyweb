@@ -207,9 +207,45 @@ main::-webkit-scrollbar-track {
     align-content: center;
     
 }
-.cardBrano i{
-    
-    
+/* col centrale */
+.containerButtonPlay{
+    text-align: center;
 }
 
+.linePlay{
+    position: relative;
+    display: inline-block;
+    width: 500px;
+    height: 5px;
+    background-color: rgb(71, 71, 71);
+}
+
+.linePlay:hover .songComplete{
+    background-color: rgb(2, 242, 2);
+    cursor: pointer;
+}
+.linePlay:hover .ballComplete{
+    display: block;
+    background-color: rgb(2, 242, 2);
+    cursor: pointer;
+}
+
+
+
+.songComplete{
+    height: 5px;
+    width: 80px;
+    background-color: grey;
+}
+
+.ballComplete{
+    position: absolute;
+    display: none;
+    height: 15px;
+    width: 15px;
+    margin-left: 80px;
+    background-color: grey;
+    top: -6px;
+    border-radius: 50%;
+}
 
