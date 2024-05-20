@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+
+body{
+    background-color: black;
+}
 /* container main e header per dare il flex */
 #containerMainPart{
     display: flex;
@@ -46,22 +50,22 @@ header{
 /* personalizzazione rollbar */
 #playList::-webkit-scrollbar  {
     width: 5px;
-  }
+}
   
-  /* Track */
-  #playList::-webkit-scrollbar-track {
+/* Track */
+#playList::-webkit-scrollbar-track {
     background: black; 
-  }
+}
    
-  /* Handle */
-  #playList::-webkit-scrollbar-thumb {
+/* Handle */
+#playList::-webkit-scrollbar-thumb {
     background: #888; 
-  }
+}
   
   /* Handle on hover */
-  #playList::-webkit-scrollbar-thumb:hover {
+#playList::-webkit-scrollbar-thumb:hover {
     background: #555; 
-  }
+}
   /* fine personalizzazione rollbar */
 
 .containerIconaFondoColonna{
@@ -110,9 +114,10 @@ main::-webkit-scrollbar-track {
   /* fine personalizzazione rollbar */
 
 .containerHead{
-    height: 110px;
+    height: 75px;
     width: calc(100% - 217px);
     position: fixed;
+    right: 0;
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -123,7 +128,8 @@ main::-webkit-scrollbar-track {
 }
 
 .buttonMain{
-    
+    margin-right: 4rem;
+    padding: 1 2rem;
 }
 
 #containerContenuti{
@@ -154,16 +160,18 @@ main::-webkit-scrollbar-track {
     
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     gap: 10px;
     /* debug */
     background-color: rgba(0, 0, 255, 0.2);
     border: 1px solid black;  
 }
 .card{
-    height: 100%;
-    width: calc(100% / 6);
+    /* height: 100%; */
+    width: calc((100% / 6) - 10px);
     text-align: center;
     /* debug */
+    height: 20rem;
     background-color: rgba(255, 0, 0, 0.2);
     border: 1px solid black;  
     

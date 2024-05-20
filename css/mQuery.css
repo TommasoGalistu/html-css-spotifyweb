@@ -1,0 +1,32 @@
+
+
+@media screen and (max-width: 942px){
+    .containerHead{
+        width: calc(100% - 217px);
+    }
+    
+}
+@media screen and (max-width: 878px){
+    .card{
+        width: calc((100% / 4) - 10px);
+    }
+    
+}
+@media screen and (max-width: 671px){
+    .card{
+        width: calc((100% / 2) - 10px);
+    }
+}
+@media screen and (max-width: 450px){
+    header{
+        width: 70px;
+    }
+    main{
+        width: calc(100% - 70px);
+    }
+    .containerHead{
+        
+        width: calc(100% - 70px);
+    }
+    
+}
