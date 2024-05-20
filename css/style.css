@@ -12,6 +12,7 @@
 header{
     width: 217px;
     height: 90vh;
+    position: relative;
     /* debug */
     background-color: green;
     border: 1px solid black;
@@ -27,6 +28,7 @@ header{
 }
 
 .containerMainMenu{
+    
     /* debug */
     height: 50px;
     background-color: rgba(0, 0, 255, 0.2);
@@ -41,8 +43,36 @@ header{
     background-color: rgba(0, 0, 255, 0.2);
     border: 1px solid black;
 }
+/* personalizzazione rollbar */
+#playList::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  #playList::-webkit-scrollbar-track {
+    background: black; 
+  }
+   
+  /* Handle */
+  #playList::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  #playList::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+  /* fine personalizzazione rollbar */
 
-
+.containerIconaFondoColonna{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* debug */
+    height: 50px;
+    background-color: rgba(0, 0, 255, 0.2);
+    border: 1px solid black;  
+}
 
 
 
