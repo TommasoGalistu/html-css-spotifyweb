@@ -44,7 +44,7 @@ header{
     border: 1px solid black;
 }
 /* personalizzazione rollbar */
-#playList::-webkit-scrollbar {
+#playList::-webkit-scrollbar  {
     width: 5px;
   }
   
@@ -80,10 +80,34 @@ main{
     /* cambiare se cambia larghezza header */
     width: calc(100% - 217px);
     height: 90vh;
+    overflow-y: auto;
+    overflow-x: hidden;
     /* debug */
     background-color: green;
     border: 1px solid black;
 }
+
+/* personalizzazione rollbar */
+main::-webkit-scrollbar  {
+    width: 10px;
+    
+  }
+  
+  /* Track */
+main::-webkit-scrollbar-track {
+    background: black; 
+  }
+   
+  /* Handle */
+  main::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  main::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+  /* fine personalizzazione rollbar */
 
 .containerHead{
     height: 110px;
@@ -92,6 +116,7 @@ main{
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    z-index: 10;
     /* debug */
     background-color: rgba(0, 0, 255, 0.2);
     border: 1px solid black;
@@ -126,24 +151,31 @@ main{
 }
 
 .firstRow{
-    height: 5rem;
+    
     width: 100%;
     display: flex;
     gap: 10px;
     /* debug */
-    
     background-color: rgba(0, 0, 255, 0.2);
     border: 1px solid black;  
 }
 .card{
     height: 100%;
     width: calc(100% / 6);
+    text-align: center;
     /* debug */
     background-color: rgba(255, 0, 0, 0.2);
     border: 1px solid black;  
     
 }
 
+.card img{
+    width: 100%;
+}
+
+.card.tonde img{
+    border-radius: 50%;
+}
 
 
 
