@@ -75,9 +75,10 @@ header{
 }
 
 
-
+/* inizio main part */
 main{
-    width: 100%;
+    /* cambiare se cambia larghezza header */
+    width: calc(100% - 217px);
     height: 90vh;
     /* debug */
     background-color: green;
@@ -86,16 +87,31 @@ main{
 
 .containerHead{
     height: 110px;
-    width: 100%;
+    width: calc(100% - 217px);
     position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
     /* debug */
     background-color: rgba(0, 0, 255, 0.2);
     border: 1px solid black;
 }
 
+.buttonMain{
+    
+}
+
+
+
+
+
+
+
+
+
 #playContainer{
     height: 10vh;
-    width: 100vw;
+    width: 100%;
     /* debug */
     background-color: green;
     border: 1px solid black;
