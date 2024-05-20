@@ -4,3 +4,39 @@
     box-sizing: border-box;
 }
 
+#containerMainPart{
+    display: flex;
+}
+
+header{
+    width: 217px;
+    height: 90vh;
+    /* debug */
+    background-color: green;
+    border: 1px solid black;
+}
+
+main{
+    width: 100%;
+    height: 90vh;
+    /* debug */
+    background-color: green;
+    border: 1px solid black;
+}
+
+.containerHead{
+    height: 110px;
+    width: 100%;
+    position: fixed;
+    /* debug */
+    background-color: rgba(0, 0, 255, );
+    border: 1px solid black;
+}
+
+#playContainer{
+    height: 10vh;
+    width: 100vw;
+    /* debug */
+    background-color: green;
+    border: 1px solid black;
+}
