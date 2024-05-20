@@ -4,10 +4,11 @@
     box-sizing: border-box;
 }
 
+/* container main e header per dare il flex */
 #containerMainPart{
     display: flex;
 }
-
+/* inizio header */
 header{
     width: 217px;
     height: 90vh;
@@ -15,6 +16,35 @@ header{
     background-color: green;
     border: 1px solid black;
 }
+
+.logoContainer{
+    width: 100%;
+    
+    /* debug */
+    height: 50px;
+    background-color: rgba(0, 0, 255, 0.2);
+    border: 1px solid black;
+}
+
+.containerMainMenu{
+    /* debug */
+    height: 50px;
+    background-color: rgba(0, 0, 255, 0.2);
+    border: 1px solid black;
+}
+
+#playList{
+    height: 30vh;
+    overflow: auto;
+    /* debug */
+    
+    background-color: rgba(0, 0, 255, 0.2);
+    border: 1px solid black;
+}
+
+
+
+
 
 main{
     width: 100%;
@@ -29,7 +59,7 @@ main{
     width: 100%;
     position: fixed;
     /* debug */
-    background-color: rgba(0, 0, 255, );
+    background-color: rgba(0, 0, 255, 0.2);
     border: 1px solid black;
 }
 
