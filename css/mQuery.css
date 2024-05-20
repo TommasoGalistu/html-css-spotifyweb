@@ -1,15 +1,56 @@
 
-
-@media screen and (max-width: 942px){
-    .containerHead{
-        width: calc(100% - 217px);
+/* query del play */
+@media screen and (max-width: 955px){
+    .linePlay{
+        width: 15rem;
+    }
+    
+    
+}
+@media screen and (max-width: 795px){
+    .linePlay{
+        width: 10rem;
+    }
+    .linePlaylaterale{
+        width: 3rem;
     }
     
 }
+@media screen and (max-width: 647px){
+    .linePlay{
+        width: 8rem;
+    }
+    .linePlaylaterale{
+        width: 2rem;
+    }
+    .cardBrano{
+        width: 10rem;
+    }
+    
+}
+@media screen and (max-width: 565px){
+    .linePlay{
+        width: 6rem;
+    }
+    .linePlaylaterale{
+        width: 1.5rem;
+    }
+    .cardBrano{
+        width: 9rem;
+        height: 3rem;
+    }
+    
+    .col i{
+        padding: 0 0.3rem;
+    }
+    
+}
+/* fine queri del play */
 @media screen and (max-width: 878px){
     .card{
         width: calc((100% / 4) - 10px);
     }
+    
     
 }
 @media screen and (max-width: 671px){
@@ -27,6 +68,9 @@
     .containerHead{
         
         width: calc(100% - 70px);
+    }
+    #containerMenuResponsive{
+        display: none;
     }
     
 }
