@@ -22,26 +22,62 @@ header{
     border: 1px solid black;
 }
 
+header img{
+    height: 100%;
+}
+
 .logoContainer{
     width: 100%;
-    height: 3rem;
+    height: 4rem;
+    
     /* debug */
     
     background-color: rgba(0, 0, 255, 0.2);
     border: 1px solid black;
 }
-.logoContainer img{
-    height: 100%;
+
+.spazio{
+    padding: 0.5rem 0.5rem;
+}
+
+
+.mostra{
+    display: none;
 }
 
 .containerMainMenu{
     
     /* debug */
-    height: 50px;
+    
     background-color: rgba(0, 0, 255, 0.2);
     border: 1px solid black;
 }
 
+.containerTastiMenu{
+    width: 100%;
+    
+    
+}
+
+.imgMenu{
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    
+    /* debug */
+    background-color: rgba(0, 0, 255, 0.2);
+    border: 1px solid black;
+}
+
+
+
+.imgMenu h4 {
+    padding-left: 0.5rem;
+    color: grey;
+    /* debug */
+    background-color: rgba(0, 0, 255, 0.2);
+    border: 1px solid black;
+}
 #playList{
     height: 30vh;
     overflow: auto;
@@ -75,10 +111,36 @@ header{
     position: absolute;
     bottom: 0;
     width: 100%;
+    height: 4rem;
+    padding-left: 0.5rem;
     /* debug */
-    height: 50px;
     background-color: rgba(0, 0, 255, 0.2);
     border: 1px solid black;  
+}
+
+.containerDownload{
+    height: 40%;
+    display: flex;
+    align-content: center;
+    
+    /* debug */
+    background-color: rgba(0, 0, 255, 0.2);
+    border: 1px solid black;  
+}
+
+.containerDownload span{
+    padding-left: 0.5rem;
+}
+
+.containerDownload.due{
+    height: 60%;
+    padding-top: 0.7rem;
+    border-top: 1px solid grey;
+    
+}
+.containerDownload.due img{
+    background-color: grey;
+    border-radius: 50%;
 }
 
 
@@ -146,18 +208,15 @@ main::-webkit-scrollbar-track {
 }
 
 .containerMenu{
-    margin-top: 110px;
+    margin-top: 75px;
     width: 100%;
     text-align: center;
+    
 }
 
-.containerContenuti li{
-    display: inline-block;
-    margin: 0 1rem;
-    
-    /* debug */
-    
-}
+
+
+
 
 .firstRow{
     
@@ -200,6 +259,7 @@ main::-webkit-scrollbar-track {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 10;
     /* debug */
     background-color: green;
     border: 1px solid black;
