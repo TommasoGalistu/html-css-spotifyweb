@@ -15,7 +15,9 @@
     background-color: greenyellow;
 }
 
-.effettoHover:hover{
+
+
+li:hover{
     cursor: pointer;
     color: white;
 }
@@ -26,12 +28,26 @@
 
 
 
+
 /* main funzionalità del menu orizzontale */
+
+
+.buttonMain:hover{
+    transform: scale(1.2);
+}
 .containerMenu ul:hover li{
     cursor: pointer;
 }
+
 
 .containerMenu li:hover .linee{
     
     background-color: greenyellow;
 }
+
+
+.contImage1:hover .filter{
+    cursor: pointer;
+    display: block;
+}
+

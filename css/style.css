@@ -175,7 +175,7 @@ main::-webkit-scrollbar-track {
 }
 
 .buttonMain{
-    margin-right: 1rem;
+    margin-right: 2.5rem;
     padding: 0.5rem 1.5rem;
     border-radius: 30px;
     font-size: 0.7rem;
@@ -237,6 +237,25 @@ main::-webkit-scrollbar-track {
 .card img{
     width: 100%;
     padding-bottom: 0.7rem;
+}
+.card .contImage1{
+    position: relative;
+    width: 100%;
+
+}
+.contImage1 .filter{
+    display: none;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 0;
+    align-content: center;
+    color: white;
+}
+
+.filter i{
+    font-size: 4rem;
 }
 
 .card.tonde img{
