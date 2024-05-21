@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Montserrat;
 }
 
 
@@ -193,8 +194,12 @@ main::-webkit-scrollbar-track {
 }
 
 .buttonMain{
-    margin-right: 4rem;
-    padding: 1 2rem;
+    margin-right: 1rem;
+    padding: 0.5rem 1.5rem;
+    border-radius: 30px;
+    font-size: 0.7rem;
+    color: white;
+    border: 1px solid white;
 }
 
 .containerContenuti{
