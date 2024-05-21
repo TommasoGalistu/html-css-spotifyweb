@@ -302,35 +302,51 @@ h2{
     background-color: rgba(255, 0, 0, 0.2);
     border: 1px solid black;  
 }
-#playContainer .col:first-child{
-    margin-left: 1rem;
+#playContainer .cardBrano{
+    /* width: 15%; */
 }
-#playContainer .col:last-child{
-    margin-right: 1rem;
+#playContainer .col.centrale{
+    /* width: 40%; */
+    height: 50%;
+}
+#playContainer .col.destra{
+    /* width: 15%; */
 }
 
 .cardBrano{
-    height: 60px;
-    /* perchèèèèèèèèè */
-    width: 13rem;
+    height: 50%;
     display: flex;
-    align-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+    
+}
+.cardBrano .contImmagine{
+    height: 100%;
+    
+}
+.contImmagine img{
+    height: 100%;
+}
+
+.containerTitleSong{
+    padding: 0 0.5rem;
     
 }
 
-.col i{
-    padding: 0 0.5rem;
-}
+
 
 /* col centrale */
 .containerButtonPlay{
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .linePlay{
     position: relative;
     display: inline-block;
     width: 25rem;
+    margin: auto;
     height: 0.3rem;
     background-color: rgb(71, 71, 71);
 }
@@ -348,7 +364,10 @@ h2{
     cursor: pointer;
 }
 
-
+.barraScorrimentoCanzone{
+    text-align: center;
+    width: 100%;
+}
 
 .songComplete{
     height: 0.3rem;

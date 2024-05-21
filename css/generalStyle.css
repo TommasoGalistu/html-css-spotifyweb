@@ -9,3 +9,32 @@ a{
 main span{
     color: grey;
 }
+
+/* inizio parte finale */
+#playContainer .col:first-child{
+    margin-left: 0.5rem;
+}
+#playContainer .col:last-child{
+    margin-right: 0.5rem;
+}
+#playContainer p{
+    color: grey;
+}
+#playContainer {
+    color: white;
+}
+.cardBrano i{
+    color: grey;
+}
+
+.col i{
+    padding: 0 0.5rem;
+}
+
+.fa-circle-play{
+    font-size: 1.7rem;
+}
+
+.tempo{
+    padding: 0;
+}
