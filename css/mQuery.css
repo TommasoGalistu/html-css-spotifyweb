@@ -1,9 +1,5 @@
 
-@media screen and (max-height: 504px){
-    /* #playList {
-        max-height: 30vh; /* Puoi ridurre l'altezza massima per dispositivi più piccoli */
-    } */
-}
+
 @media screen and (max-width: 878px){
     .card{
         width: calc((100% / 4) - 10px);
@@ -47,6 +43,64 @@
 
     
 }
+
+/* mediaquery del contenitore crea playlist */
+@media screen and (max-height: 596px){
+    #playList {
+        height: 7rem;
+    } 
+}
+@media screen and (max-height: 572px){
+    #playList {
+        height: 5rem; 
+    }
+}
+@media screen and (max-height: 546px){
+    #playList {
+        height: 3rem; 
+    }
+}
+@media screen and (max-height: 546px){
+    #playList {
+        height: 1.5rem; 
+    }
+}
+@media screen and (max-height: 490px){
+    #playList {
+        display: none;
+    }
+}
+@media screen and (max-height: 445px){
+    .selezionePlaylist{
+        display: none;
+    }
+}
+@media screen and (max-height: 394px){
+    .playlist{
+        display: none;
+    }
+}
+@media screen and (max-height: 348px){
+    .imgMenu.tre{
+        display: none;
+    }
+}
+@media screen and (max-height: 306px){
+    .imgMenu.due{
+        display: none;
+    }
+}
+@media screen and (max-height: 265px){
+    .imgMenu.uno{
+        display: none;
+    }
+}
+@media screen and (max-height: 196px){
+    .logoContainer{
+        display: none;
+    }
+}
+
 
 
 
