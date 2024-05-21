@@ -71,18 +71,27 @@ header img{
 
 
 
-h3.playlist{
+.playlist{
     margin-bottom: 1rem;
 }
 
-
-#playList{
-    height: 7rem;
-    overflow: auto;
-    margin: 1rem 0;
-    z-index: 0;
+.selezionePlaylist{
+    display: flex;
+    align-items: center;
+}
+.selezionePlaylist span{
+    padding-left: 0.5rem;
 }
 
+
+#playList ul{
+    height: 100%;
+    overflow: auto;
+    margin: 1rem 0;
+}
+#playList{
+    height: 5rem
+}
 
 /* personalizzazione rollbar */
 #playList::-webkit-scrollbar  {
@@ -281,6 +290,7 @@ h2{
 
 /* ultima parte, barra play a fondo viewport */
 #playContainer{
+    
     height: 100px;
     width: 100%;
     display: flex;

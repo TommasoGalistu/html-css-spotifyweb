@@ -41,6 +41,10 @@ li:hover{
     cursor: pointer;
 }
 
+.selezionePlaylist:hover{
+    cursor: pointer;
+    color: white;
+}
 
 .containerMenu li:hover .linee{
     

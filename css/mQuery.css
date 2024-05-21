@@ -1,4 +1,9 @@
 
+@media screen and (max-height: 504px){
+    /* #playList {
+        max-height: 30vh; /* Puoi ridurre l'altezza massima per dispositivi più piccoli */
+    } */
+}
 @media screen and (max-width: 878px){
     .card{
         width: calc((100% / 4) - 10px);
