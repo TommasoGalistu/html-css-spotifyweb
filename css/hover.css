@@ -1,3 +1,31 @@
+/* linee verdi nel menu header */
+
+.imgMenu:hover{
+    cursor: pointer;
+    color: white;
+    
+}
+
+.imgMenu:hover {
+    cursor: pointer;
+}
+
+.imgMenu:hover .lineeHeader{
+    cursor: pointer;
+    background-color: greenyellow;
+}
+
+.effettoHover:hover{
+    cursor: pointer;
+    color: white;
+}
+
+
+
+
+
+
+
 /* main funzionalità del menu orizzontale */
 .containerMenu ul:hover li{
     cursor: pointer;

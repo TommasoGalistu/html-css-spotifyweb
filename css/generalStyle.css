@@ -1,3 +1,16 @@
+.imgMenu img{
+    color: grey;
+}
+
+
+.fa-square-plus{
+    font-size: 2rem;
+}
+
+.playlist{
+    color: white;
+}
+
 a{
    text-decoration: none; 
 }
