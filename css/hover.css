@@ -16,7 +16,6 @@
 }
 
 
-
 li:hover{
     cursor: pointer;
     color: white;
@@ -51,3 +50,19 @@ li:hover{
     display: block;
 }
 
+
+
+/* fine parte play */
+.containerTitleSong:hover p{
+    cursor: pointer;
+    color: white;
+    text-decoration: underline;
+}
+i:hover {
+    cursor: pointer;
+    color: white;
+}
+
+.fa-circle-play:hover{
+    transform: scale(1.2);
+}

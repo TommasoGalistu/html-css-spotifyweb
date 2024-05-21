@@ -30,7 +30,7 @@ main span{
 #playContainer .col:last-child{
     margin-right: 0.5rem;
 }
-#playContainer p{
+p{
     color: grey;
 }
 #playContainer {
