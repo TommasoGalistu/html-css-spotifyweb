@@ -17,6 +17,9 @@
     header{
         width: 70px;
     }
+    .logoContainer {
+        text-align: center;
+    }
     .mostra{
         display: inline-block;
     }
@@ -25,8 +28,13 @@
     }
     .imgMenu{
         justify-content: center;
+        padding-left: 0;
     }
+
     .containerDownload{
+        justify-content: center;
+    }
+    .selezionePlaylist{
         justify-content: center;
     }
     /* main */
@@ -44,7 +52,7 @@
     
 }
 
-/* mediaquery del contenitore crea playlist */
+/* mediaquery del contenitore crea playlist e modifiche verticali */
 @media screen and (max-height: 596px){
     #playList {
         height: 7rem;
@@ -73,6 +81,7 @@
 @media screen and (max-height: 445px){
     .selezionePlaylist{
         display: none;
+        
     }
 }
 @media screen and (max-height: 394px){

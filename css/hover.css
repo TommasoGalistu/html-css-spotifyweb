@@ -8,11 +8,12 @@
 
 .imgMenu:hover {
     cursor: pointer;
+    border-left: 3px solid greenyellow;
 }
 
 .imgMenu:hover .lineeHeader{
     cursor: pointer;
-    background-color: greenyellow;
+    
 }
 
 
