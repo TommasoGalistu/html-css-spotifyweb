@@ -52,6 +52,7 @@ header img{
     height: 2rem;
     display: flex;
     align-items: center;
+    margin-bottom: 0.5rem;
 }
 
 
@@ -70,11 +71,16 @@ header img{
 
 
 
+h3.playlist{
+    margin-bottom: 1rem;
+}
 
 
 #playList{
-    height: 30vh;
+    height: 7rem;
     overflow: auto;
+    margin: 1rem 0;
+    z-index: 0;
 }
 
 
@@ -102,7 +108,7 @@ header img{
 
 .containerIconaFondoColonna{
     position: absolute;
-    bottom: 0;
+    bottom: 2%;
     width: 100%;
     height: 4rem;
     padding-left: 0.5rem;

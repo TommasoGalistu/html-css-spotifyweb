@@ -21,7 +21,10 @@ li:hover{
     color: white;
 }
 
-
+.effettoHover:hover{
+    color: white;
+    cursor: pointer;
+}
 
 
 

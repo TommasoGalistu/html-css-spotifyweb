@@ -11,10 +11,18 @@
     color: white;
 }
 
+#playList li{
+    padding: 0.2rem 0;
+}
+
 a{
    text-decoration: none; 
 }
 
+
+.containerDownload h4{
+    margin-left: 0.5rem;
+}
 .card h4{
     color: white;
 }
@@ -33,6 +41,8 @@ main span{
 p{
     color: grey;
 }
+
+
 #playContainer {
     color: white;
 }
