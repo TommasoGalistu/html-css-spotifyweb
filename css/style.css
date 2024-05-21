@@ -6,9 +6,7 @@
 }
 
 
-body{
-    background-color: black;
-}
+
 /* container main e header per dare il flex */
 #containerMainPart{
     display: flex;
@@ -18,9 +16,8 @@ header{
     width: 217px;
     height: calc(100vh -100px);
     position: relative;
-    /* debug */
-    background-color: green;
-    border: 1px solid black;
+    background-color: black;
+    color: grey;
 }
 
 header img{
@@ -30,11 +27,6 @@ header img{
 .logoContainer{
     width: 100%;
     height: 4rem;
-    
-    /* debug */
-    
-    background-color: rgba(0, 0, 255, 0.2);
-    border: 1px solid black;
 }
 
 .spazio{
@@ -46,13 +38,7 @@ header img{
     display: none;
 }
 
-.containerMainMenu{
-    
-    /* debug */
-    
-    background-color: rgba(0, 0, 255, 0.2);
-    border: 1px solid black;
-}
+
 
 .containerTastiMenu{
     width: 100%;
@@ -64,29 +50,20 @@ header img{
     height: 2rem;
     display: flex;
     align-items: center;
-    
-    /* debug */
-    background-color: rgba(0, 0, 255, 0.2);
-    border: 1px solid black;
 }
 
 
 
 .imgMenu h4 {
     padding-left: 0.5rem;
-    color: grey;
-    /* debug */
-    background-color: rgba(0, 0, 255, 0.2);
-    border: 1px solid black;
+    
 }
 #playList{
     height: 30vh;
     overflow: auto;
-    /* debug */
-    
-    background-color: rgba(0, 0, 255, 0.2);
-    border: 1px solid black;
 }
+
+
 /* personalizzazione rollbar */
 #playList::-webkit-scrollbar  {
     width: 5px;
@@ -114,19 +91,12 @@ header img{
     width: 100%;
     height: 4rem;
     padding-left: 0.5rem;
-    /* debug */
-    background-color: rgba(0, 0, 255, 0.2);
-    border: 1px solid black;  
 }
 
 .containerDownload{
     height: 40%;
     display: flex;
     align-content: center;
-    
-    /* debug */
-    background-color: rgba(0, 0, 255, 0.2);
-    border: 1px solid black;  
 }
 
 .containerDownload span{
@@ -152,9 +122,7 @@ main{
     height: calc(100vh - 100px);
     overflow-y: auto;
     overflow-x: hidden;
-    /* debug */
-    background-color: green;
-    border: 1px solid black;
+    background-color: rgb(21, 21, 21);
 }
 
 /* personalizzazione rollbar */
@@ -188,9 +156,7 @@ main::-webkit-scrollbar-track {
     align-items: center;
     justify-content: flex-end;
     z-index: 10;
-    /* debug */
-    background-color: rgba(0, 0, 255, 0.2);
-    border: 1px solid black;
+    background-color: rgba(18, 18, 18, 0.5);
 }
 
 .buttonMain{
@@ -205,10 +171,6 @@ main::-webkit-scrollbar-track {
 .containerContenuti{
     padding: 0 0.5rem;
     width: 100%;
-    
-    /* debug */
-    background-color: rgba(0, 0, 255, 0.2);
-    border: 1px solid black;
     
 }
 /* container lista */
@@ -231,9 +193,10 @@ main::-webkit-scrollbar-track {
     font-size: 0.7rem;
     padding: 0.5rem ;
 }
+
+
 /* linea fosforescente della lista */
-.line{
-    
+.linee{
     width: 1rem;
     padding: 1px;
     background-color: black;
@@ -246,9 +209,6 @@ main::-webkit-scrollbar-track {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
-    /* debug */
-    background-color: rgba(0, 0, 255, 0.2);
-    border: 1px solid black;  
 }
 
 .card{
@@ -256,10 +216,6 @@ main::-webkit-scrollbar-track {
     width: calc((100% / 6) - 10px);
     text-align: center;
     padding: 1rem 0;
-    /* debug */
-    
-    background-color: rgba(255, 0, 0, 0.2);
-    border: 1px solid black;  
     
 }
 
@@ -291,17 +247,10 @@ h2{
     justify-content: space-between;
     align-items: center;
     z-index: 10;
-    /* debug */
-    background-color: green;
-    border: 1px solid black;
+    background-color: rgb(58, 58, 58);
 }
 
-#playContainer .col{
-    /* debug */
-    
-    background-color: rgba(255, 0, 0, 0.2);
-    border: 1px solid black;  
-}
+
 #playContainer .cardBrano{
     /* width: 15%; */
 }
