@@ -1,0 +1,9 @@
+/* main funzionalità del menu orizzontale */
+.containerMenu ul:hover li{
+    cursor: pointer;
+}
+
+.containerMenu li:hover .line{
+    
+    background-color: greenyellow;
+}

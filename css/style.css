@@ -160,7 +160,7 @@ main{
 /* personalizzazione rollbar */
 main::-webkit-scrollbar  {
     width: 10px;
-    
+    color: grey;
   }
   
   /* Track */
@@ -211,7 +211,7 @@ main::-webkit-scrollbar-track {
     border: 1px solid black;
     
 }
-
+/* container lista */
 .containerMenu{
     margin-top: 80px;
     width: 100%;
@@ -231,22 +231,13 @@ main::-webkit-scrollbar-track {
     font-size: 0.7rem;
     padding: 0.5rem ;
 }
-
+/* linea fosforescente della lista */
 .line{
     
     width: 1rem;
     padding: 1px;
     background-color: black;
     
-}
-
-.containerMenu ul:hover li{
-    cursor: pointer;
-}
-
-.containerMenu li:hover .line{
-    
-    background-color: greenyellow;
 }
 
 .firstRow{
@@ -259,12 +250,14 @@ main::-webkit-scrollbar-track {
     background-color: rgba(0, 0, 255, 0.2);
     border: 1px solid black;  
 }
+
 .card{
     /* height: 100%; */
     width: calc((100% / 6) - 10px);
     text-align: center;
+    padding: 1rem 0;
     /* debug */
-    height: 20rem;
+    
     background-color: rgba(255, 0, 0, 0.2);
     border: 1px solid black;  
     
@@ -277,6 +270,12 @@ main::-webkit-scrollbar-track {
 .card.tonde img{
     border-radius: 50%;
 }
+
+h2{
+    padding-bottom: 1rem;
+    color: white;
+}
+
 
 
 
