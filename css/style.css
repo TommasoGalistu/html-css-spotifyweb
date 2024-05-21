@@ -213,15 +213,41 @@ main::-webkit-scrollbar-track {
 }
 
 .containerMenu{
-    margin-top: 75px;
+    margin-top: 80px;
     width: 100%;
     text-align: center;
+    color: gray;
+}
+.containerMenu ul{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.containerMenu li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    font-size: 0.7rem;
+    padding: 0.5rem ;
+}
+
+.line{
+    
+    width: 1rem;
+    padding: 1px;
+    background-color: black;
     
 }
 
+.containerMenu ul:hover li{
+    cursor: pointer;
+}
 
-
-
+.containerMenu li:hover .line{
+    
+    background-color: greenyellow;
+}
 
 .firstRow{
     
